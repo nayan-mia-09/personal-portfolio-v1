@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+
+.logo{
+      font-family: "Medula One", system-ui;
+      font-size: 40px;
+font-weight: bold;
+}
+
+nav a {
+  color: #000; /* Change to white if your background is dark */
+  font-weight: 500;
+}
+
+nav a:hover{
+    color:indianred;
+}
