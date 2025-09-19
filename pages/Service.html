@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nayan Mia - Home</title>
+    <title>Nayan Mia</title>
     <!-- BootStrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!--BootStrap Icon CSS-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
      <!-- Main CSS -->
       <link rel="stylesheet" href="/style/style.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+<body class="">
+    <main class="container">
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow mb-5">
   <div class="container">
     <!-- Logo -->
-    <a class="navbar-brand fw-bold logo" href="#">Nayan Mia</a>
+    <a class="navbar-brand fw-bold logo" href="/pages/Main.html">Nayan Mia</a>
 
     <!-- Toggle button (hamburger) -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavContent" aria-controls="navbarNavContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,12 +43,112 @@
 
       <!-- Button -->
       <div class="d-flex">
-        <a href="/pages/Contact.html" class="btn btn-primary">Hire Me</a>
+        <a href="/pages/Contact.html" class="btn btn-outline-primary">Hire Me</a>
       </div>
     </div>
   </div>
 </nav>
-<h1>Services</h1>
+
+<!--Services Section Start-->
+<div class="row mt-5 mb-5">
+  <h1 class="fw-bold mb-5 fs-1 text-center mt-5">Services</h1> <!-- Bigger Title -->
+
+  <div class="row align-items-center">
+    <!-- Left: Text Content -->
+    <div class="col-md-6">
+      <span class="text-primary fs-4">01</span> <!-- Bigger Number -->
+      <h2 class="fw-bold mt-2 fs-2">Front End</h2> <!-- Bigger Subtitle -->
+      <p class="mt-3 fs-5">
+        I am proficient in designing beautiful and intuitive interfaces that enhance user experience, 
+        making applications responsive, modern, and easy to navigate.
+      </p>
+      <ul class="list-unstyled mt-3 fs-5"> <!-- Bigger List -->
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          Build responsive UI with React & TailwindCSS
+        </li>
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          Optimize performance and accessibility
+        </li>
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          Create reusable and scalable components
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="col-md-6 text-center">
+      <img src="/assets/Front-end.jpg" alt="Front End Service" 
+           class="img-fluid rounded shadow-lg">
+    </div>
+  </div>
+
+   <!-- Back End -->
+  <div class="row align-items-center mb-5 flex-row-reverse mt-5">
+    <div class="col-md-6">
+      <span class="text-primary fs-4">02</span>
+      <h2 class="fw-bold mt-2 fs-2">Back End</h2>
+      <p class="mt-3 fs-5">
+        Skilled in building secure, scalable, and efficient server-side applications 
+        to support modern web solutions.
+      </p>
+      <ul class="list-unstyled mt-3 fs-5">
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          RESTful API development with Node.js & Express
+        </li>
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          Database design & management (MongoDB, SQL)
+        </li>
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          Authentication & Authorization (JWT, OAuth)
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="/assets/Back-end.webp" alt="Back End Service" 
+           class="img-fluid rounded shadow-lg">
+    </div>
+  </div>
+
+  <!-- Full Stack -->
+  <div class="row align-items-center mt-5 mb-5">
+    <div class="col-md-6">
+      <span class="text-primary fs-4">03</span>
+      <h2 class="fw-bold mt-2 fs-2">Full Stack</h2>
+      <p class="mt-3 fs-5">
+        Experienced in handling both front-end and back-end, delivering complete web solutions 
+        from concept to deployment.
+      </p>
+      <ul class="list-unstyled mt-3 fs-5">
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          End-to-end application development (MERN Stack)
+        </li>
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          Deploy & maintain apps on Netlify, Vercel, Heroku
+        </li>
+        <li class="mb-2">
+          <i class="bi bi-caret-right-fill text-primary me-2"></i>
+          Integration of APIs and third-party services
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="/assets/Full-stack.jpg" alt="Full Stack Service" 
+           class="img-fluid rounded shadow-lg">
+    </div>
+  </div>
+</div>
+</div>
+<!--Services Section End-->
+    </main>
+
 
     <!-- BootStrap JS -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

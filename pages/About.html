@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nayan Mia - Home</title>
+    <title>Nayan Mia</title>
     <!-- BootStrap CSS -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!--BootStrap Icon CSS-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
      <!-- Main CSS -->
       <link rel="stylesheet" href="/style/style.css">
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+<body class="">
+    <main class="container">
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top shadow mb-5">
   <div class="container">
     <!-- Logo -->
-    <a class="navbar-brand fw-bold logo" href="#">Nayan Mia</a>
+    <a class="navbar-brand fw-bold logo" href="/pages/Main.html">Nayan Mia</a>
 
     <!-- Toggle button (hamburger) -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavContent" aria-controls="navbarNavContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,12 +43,44 @@
 
       <!-- Button -->
       <div class="d-flex">
-        <a href="/pages/Contact.html" class="btn btn-primary">Hire Me</a>
+        <a href="/pages/Contact.html" class="btn btn-outline-primary">Hire Me</a>
       </div>
     </div>
   </div>
 </nav>
-<h1>About</h1>
+
+<!--About Section Start-->
+
+
+  <!-- About Me Content -->
+    <div class="row text-center m-5 p-5">
+    <h1>About Me</h1>
+   </div>
+  <div class="row align-items-center my-5">
+    
+  
+  <!-- Profile Image -->
+  <div class="col-sm-12 col-md-5 col-lg-4 text-center mb-4 mb-md-0">
+    <img src="/assets/Nayan.png" alt="Nayan Mia" 
+         class="img-fluid rounded shadow-lg" style="max-width: 320px;">
+  </div>
+
+  <!-- About Me Content -->
+  
+  <div class="col-sm-12 col-md-7 col-lg-8">
+    <h2 class="fw-bold">
+      Hi, I’m Nayan Mia, a Junior MERN Stack Developer skilled in building responsive and user-friendly 
+      web applications using MongoDB, Express.js, React, and Node.js. I enjoy solving problems, writing clean code, 
+      and continuously learning to grow as a developer.
+    </h2>
+    <p class="mt-3 text-muted">
+      I’m eager to collaborate on exciting projects, contribute to dynamic teams, and grow as a developer in the tech industry.
+    </p>
+  </div>
+</div>
+<!--About Section End-->
+    </main>
+
 
     <!-- BootStrap JS -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
