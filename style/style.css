@@ -30,3 +30,16 @@ nav a:hover{
     transform: scale(1.15);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
+
+  .card-img-top {
+  height: 220px;          /* Set a fixed height */
+  object-fit: cover;      /* Crop image to fit (no stretching) */
+  object-position: top;   /* Align from top */
+}
+.card {
+  border: none;           /* Optional: cleaner look */
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px); /* Hover effect */
+}
