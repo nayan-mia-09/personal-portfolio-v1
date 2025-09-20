@@ -18,12 +18,12 @@
 </ul>
 
 <h3>🚀 Live Demo</h3>
-<a href="">👉 Check Portfolio Live</a>
+<a href="https://nayandev.netlify.app/">👉 Check Portfolio Live</a>
 
 <h3>📬 Contact Me</h3>
 <ul>
   <li>📧 Email: your-email@gmail.com</li>
   <li>📱 Phone: +880 1234-567890</li>
   <li>🌍 Location: Dhaka, Bangladesh</li>
-  <li><a href="">🔗LinkedIn</a><a href="">| GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/nayanmia-dev/">🔗LinkedIn</a><a href="">| GitHub</a></li>
 </ul>
