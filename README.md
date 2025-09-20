@@ -25,5 +25,5 @@
   <li>📧 Email: your-email@gmail.com</li>
   <li>📱 Phone: +880 1234-567890</li>
   <li>🌍 Location: Dhaka, Bangladesh</li>
-  <li><a href="https://www.linkedin.com/in/nayanmia-dev/">🔗LinkedIn</a><a href="">| GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/nayanmia-dev/">🔗LinkedIn</a><a href="https://github.com/nayan-mia-09">| GitHub</a></li>
 </ul>
